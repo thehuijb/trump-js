@@ -5,4 +5,4 @@
 use trumpjs to make America great again.
 this tiny js file makes America great in the whole page
 
-demo  
+[demo](https://thehuijb.github.io/trumpjs)
