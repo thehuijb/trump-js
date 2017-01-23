@@ -1,0 +1,11 @@
+{
+  "name": "trumpjs",
+  "version": "1.0.0",
+  "description": "Make America great again",
+  "main": "trump.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thehuijb",
+  "license": "ISC"
+}
