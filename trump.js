@@ -20,7 +20,7 @@
         return document.createTextNode(s);
     }
 
-    var america = /(\(America\)|America)/ig,
+    var america = /(\America)/ig,
         i = nodes.length, 
         j = 0, k = 0, l = 0, 
         source = '', 
@@ -37,15 +37,15 @@
                     source = el[j].childNodes[k].nodeValue;
                     
                     // we need markers to handle IE not including the split token
-                    if (/^(\(America\)|America)/i.test(source)) {
+                    if (/^(America)/i.test(source)) {
                         source = '__MARKER__' + source;
                     }
                     
-                    if (/(\(America\)|America)$/i.test(source)) {
+                    if (/(America)$/i.test(source)) {
                         source = source + '__MARKER__';
                     }
                     
-                    parts = source.split(/(\(America\)|America)/i);
+                    parts = source.split(/(America)/i);
                     frag = document.createDocumentFragment();
                     l = 0;
                     
