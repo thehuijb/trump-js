@@ -1,0 +1,22 @@
+{
+  "name": "trump-js",
+  "description": "Make America great again",
+  "main": "trump.js",
+  "authors": [
+    "Thehuijb"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Trump",
+    "America",
+    "Great"
+  ],
+  "homepage": "https://github.com/thehuijb/trump-js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
